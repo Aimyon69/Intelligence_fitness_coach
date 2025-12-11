@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 import numpy as np
 yolo=YOLO('yolov8s-pose.pt')
-results=yolo('D:/image/mom.jpg',conf=0.65)
+results=yolo('/mnt/d/image/mom.jpg',conf=0.65)
 print(results[0].keypoints.data.shape)
 print(type(results))
 img=results[0].orig_img
