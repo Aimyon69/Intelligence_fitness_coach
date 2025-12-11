@@ -1,2 +1,6 @@
 yolov8s-pose.pt
 fitness_env
+/app/README.md
+/app/output.mp4
+/app/test_linux_cam.jpg
+__pycache__
